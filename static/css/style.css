@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(255,155,29);
+  text-align: center;
+}
+
+hr {
+  border-top: black 5px dashed;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: black;
+  width: 60%;
+  color: white;
+  display: inline-block;
+  text-align: left;
+}
+
+.subButton {
+  margin: 10px 0px;
+  padding: 5px;
+  color: black;
+  background-color: white;
+}
+
+input[type=text] {
+  width: 90%;
+  margin: 5px 0px;
+  border: solid black 2px;
+}
+
+input[type=textarea] {
+  width: 90%;
+  height: 100px;
+  margin: 5px 0px;
+  border: solid black 2px;
+}
+
+input[type=password] {
+  width: 50%;
+  margin: 5px 0px;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  border: solid black 2px;
+  padding: 2px;
+  margin: 5px;
+  background-color: black;
+}
