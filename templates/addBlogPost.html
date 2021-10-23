@@ -11,25 +11,31 @@
     <a href="https://Build-a-Blog.dstoutin97.repl.co">Main Blog Page</a>
     <a href="https://Build-a-Blog.dstoutin97.repl.co/addBlogPost">Add Blog Post</a>
 
-    <hr>
-    <h1>-The Blogger-</h1>
-    <h2><i>(Halloween Edition)</i></h2>
-    <hr>
+    <hr class="banner">
+    <div>
+      <h1>-The Blogger-</h1>
+      <h2><i>(Halloween Edition)</i></h2>
+    <div>
+    <hr class="banner">
+    
 
     <h2>Create New Post</h2> 
-    <form>
+    <br>
+    <br>
+    
+    <form action="https://Build-a-Blog.dstoutin97.repl.co/addBlogPost" method="post" id="addPost">
       <p>Post Title:</p>
-      <input type="text" name="Post Title">
+      <input type="text" name="Post Title"></input>
       <br>
 
       <p>Post Content:</p>
-      <input type="textarea" name="Post Content">
+      <textarea form="addPost" name="Post Content" cols="50" wrap="hard">{{error}}</textarea>
       <br>
 
-      <input type="submit" class="subButton" value="Post">
+      <input type="submit" class="subButton" value="Add Post"></input>
     </form>
-
-      
+    <br>
+    <br>
 
     <script src="main.py"></script>
   </body>
