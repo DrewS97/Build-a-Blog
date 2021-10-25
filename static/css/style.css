@@ -64,10 +64,10 @@ input[type=password] {
 a {
   color: white;
   font-weight: bold;
-  border: solid black 2px;
-  padding: 2px;
-  margin: 5px;
+  padding: 8px;
+  margin: 10px, 10px, 10px, 10px;
   background-color: black;
+  display: inline-block;
 }
 
 .post {
@@ -83,4 +83,8 @@ a {
 .content {
   left: 5%;
   margin: 5%;
+}
+
+.title {
+  text-decoration: none;
 }

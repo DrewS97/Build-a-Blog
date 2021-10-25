@@ -15,7 +15,21 @@
     <h1>Welcome To -The Blogger-</h1>
     <h2><i>(Halloween Edition)</i></h2>
     <hr class="banner">
+    <br>
     
+    {%- for key, value in posts.items() %}
+    <div class="post">
+      <a href="https://Build-a-Blog.dstoutin97.repl.co" class="title">
+        <h3><strong>---Title: {{key}}---</strong></h3>
+      </a>
+      <hr>
+      <p class="content">{{value}}<hr></p>
+    </div>
+    <br>
+    {%- endfor %}
+
+
+    <a href="https://Build-a-Blog.dstoutin97.repl.co">Return to top</a>
     <script src="main.py"></script>
   </body>
 </html>
