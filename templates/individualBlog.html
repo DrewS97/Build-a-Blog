@@ -16,20 +16,15 @@
     <h2><i>(Halloween Edition)</i></h2>
     <hr class="banner">
     <br>
-    
-    {%- for ID, TITLE, BODY in query %}
+
     <div class="post">
-      <a href="https://Build-a-Blog.dstoutin97.repl.co/?ID={{ID}}" class="title">
-        <h3><strong>---Title: {{TITLE}}---</strong></h3>
+      <a href="https://Build-a-Blog.dstoutin97.repl.co" class="title">
+        <h3 class="title"><strong>---Title: {{TITLE}}---</strong></h3>
       </a>
       <hr>
       <p class="content">{{BODY}}<hr></p>
     </div>
-    <br>
-    {%- endfor %}
 
-
-    <a href="https://Build-a-Blog.dstoutin97.repl.co">Return to top</a>
     <script src="main.py"></script>
   </body>
 </html>
